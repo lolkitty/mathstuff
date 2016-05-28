@@ -20,6 +20,6 @@ def addfac(x,y): # defines function
     return str(result) #returns result as string.
 
 #explains and prints result.
-print ("This is all the numbers from " + str(n) + " to " + str(w) + " added up INCLUDING the two numbers. So, 1 and 3 =1 + 2 + 3" )
+print ("This is all the numbers from " + str(n) + " to " + str(w) + " added up INCLUDING the two numbers. So, 1 and 3 = 1 + 2 + 3" )
 print (addfac(n,w))
 
