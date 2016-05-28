@@ -1,11 +1,12 @@
 while True:
     n = input(' Give me a number: ') # gets two numbers
-    w = input(' Give me another a number: ')
-
     if n.isdigit():
         n = int(n)
     else:
         print("Not A NUMBER")
+        
+    w = input(' Give me another a number: ')
+    
     if w.isdigit():
         w = int(w)
     else:
