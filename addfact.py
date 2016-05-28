@@ -3,11 +3,11 @@ w = input(' Give me another a number: ')
 
 if n.isdigit():
     n = int(n)
-else
+else:
     print("Not A NUMBER")
 if w.isdigit():
     w= int(w)
-else
+else:
     print("Not A NUMBER")
 
 def addfac(x,y): # defines function
