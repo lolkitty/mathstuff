@@ -4,6 +4,7 @@ while True:
         n = int(n)
     else:
         print("Not A NUMBER")
+        continue
         
     w = input(' Give me another a number: ')
     
@@ -11,6 +12,7 @@ while True:
         w = int(w)
     else:
         print("Not A NUMBER")
+        continue
 
     def addfac(x,y): # defines function
         result = 0 # defines result
