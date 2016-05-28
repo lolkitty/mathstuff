@@ -1,5 +1,14 @@
-n = int(input(' Give me a number: ')) # gets two numbers
-w = int(input(' Give me another a number: '))
+n = input(' Give me a number: ') # gets two numbers
+w = input(' Give me another a number: ')
+
+if n.isdigit():
+    n = int(n)
+else
+    print("Not A NUMBER")
+if w.isdigit():
+    w= int(w)
+else
+    print("Not A NUMBER")
 
 def addfac(x,y): # defines function
     result = 0 # defines result
