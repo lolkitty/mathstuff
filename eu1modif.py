@@ -3,7 +3,7 @@ x  = int(input("Enter a number: "))
 y  = int(input("Enter a number: "))
 n  = int(input("Enter a number: "))
 
-num = range(0,n+1)
+num = list(range(0,n+1))
 #for i in range(0,len(num)):
 #  if num[i]%x != 0:
 #    del num[i]
