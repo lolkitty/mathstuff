@@ -18,3 +18,7 @@ while i < len(num):
   else:
     i = i + 1
 print(num)
+result = 0;
+for l in range(0,len(num)):
+  result = result + num[l]
+print(result)
