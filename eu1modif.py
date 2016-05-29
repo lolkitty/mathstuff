@@ -1,7 +1,7 @@
 #Finds all the multiples of x and y, below n.
-x  = input("Enter a number: ")
-y  = input("Enter a number: ")
-n  = input("Enter a number: ")
+x  = int(input("Enter a number: "))
+y  = int(input("Enter a number: "))
+n  = int(input("Enter a number: "))
 
 num = list(range(0,n))
 num.append(i)
