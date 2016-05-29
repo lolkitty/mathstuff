@@ -4,7 +4,7 @@ y  = int(input("Enter a number: "))
 n  = int(input("Enter a number: "))
 
 num = list(range(0,n))
-num.append(i)
+num.append(n)
 #for i in range(0,len(num)):
 #  if num[i]%x != 0:
 #    del num[i]
