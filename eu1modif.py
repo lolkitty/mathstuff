@@ -5,9 +5,17 @@ n  = int(input("Enter a number: "))
 
 num = list(range(0,n))
 num.append(i)
-for i in range(0,len(num)):
+#for i in range(0,len(num)):
+#  if num[i]%x != 0:
+#    del num[i]
+#  elif num[i]%y != 0:
+#   del num[i]
+i = 0
+while i < len(num):
   if num[i]%x != 0:
     del num[i]
   elif num[i]%y != 0:
     del num[i]
+  else:
+    i = i + 1
 print(num)
